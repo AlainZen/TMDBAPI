@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Liste de Films</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="films-container">
+      <div id="film-template" class="film" style="display: none">
+        <h2 class="film-title">Titre du Film</h2>
+        <p class="film-description">Description du film...</p>
+        <a class="film-details-link" href="details.html?id="
+          >Voir les détails</a
+        >
+      </div>
+    </div>
+
+    <div class="pagination">
+      <button id="prev">Précédent</button>
+      <span id="current-page">1</span>
+      <button id="next">Suivant</button>
+    </div>
+  </body>
+</html>
